@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MovieSelector from './components/MovieSelector';
+import SeatLegend from './components/SeatLegend';
+import SeatMap from './components/SeatMap';
+import Total from './components/Total';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MovieSelector />
+      <SeatLegend />
+      <SeatMap />
+      <Total />
     </div>
   );
 }
