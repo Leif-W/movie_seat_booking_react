@@ -3,7 +3,7 @@ import React from 'react'
 function Total() {
 	return (
 		<div>
-			<h1>Total</h1>
+			<p className="text">You have selected <span id="count">0</span> seats for a total of £<span id="total">0</span></p>
 		</div>
 	)
 }
